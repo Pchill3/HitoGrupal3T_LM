@@ -1,0 +1,41 @@
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/seguridad-informatica.jpg);
+}
+
+#titulo{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 3rem;
+}
+#titulo h2{
+    text-decoration: underline overline;
+}
+#subtitulo{
+    padding: 0.625rem;
+    text-align: center;
+    margin-bottom: 0.265rem;
+}
+
+#Back{
+    margin: 2rem;
+    border-radius: 15px;
+    background-color: white;
+}
+
+/* Metodos responsive */
+@media (max-width: 1350px)
+{
+    #der{
+    display: none;
+    }
+}
+
+@media (max-width: 1100px) 
+{
+    #texto{
+        padding-left: 3rem;
+    }
+}

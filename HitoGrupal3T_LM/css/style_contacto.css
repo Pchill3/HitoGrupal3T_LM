@@ -1,0 +1,193 @@
+/*--------------------------------------CONTACTO---------------------------------*/
+
+/* formulario contacto */ 
+li,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.titulo1 {
+  position: relative;
+  padding-bottom: 2.5rem;
+}
+.titulo1 .contactanos {
+  position: relative;
+  color: #00b8ca;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding-right: 3.125rem;
+  margin-bottom: 0.938rem;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.titulo1 .contactanos:before {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0.438rem;
+  width: 2.5rem;
+  height: 0.063rem;
+  background-color: #bbb;
+}
+.titulo1 h2 {
+  position: relative;
+  color: #252525;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.5em;
+  display: block;
+}
+.titulo1.light h2 {
+  color: #fff;
+}
+.pagina_contacto {
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
+  position: relative;
+  padding-top: 6.875rem;
+  padding-bottom: 6.875rem;
+}
+.pagina_contacto .inner-container {
+  position: relative;
+  z-index: 1;
+  background-color: #00b8ca;
+  box-shadow: 0 0 0.938rem 0.313rem rgba(0, 0, 0, 0.1);
+}
+.pagina_contacto .form-column {
+  position: relative;
+  padding: 0 0 0 0.938rem;
+}
+.pagina_contacto .form-column .inner-column {
+  position: relative;
+  padding: 3.75rem 2.813rem 1.875rem;
+  background-color: #fff;
+}
+.pagina_contacto .info-column {
+  position: relative;
+}
+.pagina_contacto .info-column .inner-column {
+  position: relative;
+  padding: 3.75rem 2.188rem;
+}
+.pagina_contacto .info-column h2 {
+  position: relative;
+  color: #fff;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin-bottom: 2.813rem;
+}
+.pagina_contacto .info-column .list-info {
+  position: relative;
+  margin-bottom: 3.75rem;
+}
+.pagina_contacto .info-column .list-info li {
+  position: relative;
+  margin-bottom: 1.563rem;
+  font-size: 1.125rem;
+  color: #fff;
+  line-height: 1.8em;
+  padding-left: 2.813rem;
+}
+.pagina_contacto .info-column .list-info li:last-child {
+  margin-bottom: 0;
+}
+.pagina_contacto .info-column .list-info li i {
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  color: #fff;
+  font-size: 1.875rem;
+}
+.formulario_contacto {
+  position: relative;
+}
+.formulario_contacto .form-group {
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+.formulario_contacto input[type="text"],
+.formulario_contacto input[type="password"],
+.formulario_contacto input[type="email"],
+.formulario_contacto textarea {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 3.75rem;
+  color: #222;
+  font-size: 0.875rem;
+  line-height: 2.375rem;
+  padding: 0.625rem 1.875rem;
+  border: 0.063rem solid #ddd;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
+.formulario_contacto textarea {
+  height: 15.625rem;
+  resize: none;
+}
+.formulario_contacto .theme-btn {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 0.625rem;
+  text-transform: capitalize;
+  padding: 1rem 2.438rem;
+  border: 0.125rem solid #00b8ca;
+  font-family: Arimo, sans-serif;
+  background: #00b8ca;
+  display: inline-block;
+  position: relative;
+  line-height: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+.formulario_contacto .theme-btn:hover {
+  color: #00b8ca;
+  border-color: #00b8ca;
+  background: 0 0;
+}
+
+.social-icon-four {
+  position: relative;
+}
+.social-icon-four li {
+  position: relative;
+  margin-right: 18px;
+  display: inline-block;
+}
+.social-icon-four li.follow {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  display: block;
+  margin-bottom: 1.25rem;
+}
+.social-icon-four li a {
+  position: relative;
+  font-size: 1.25rem;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.social-icon-four li a:hover {
+  color: #222;
+}
+
+/*--------------------Metodos Responsive--------------------------*/
+@media (max-width: 991.98px) 
+{     
+  .pagina_contacto {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    padding-top: 6.875rem;
+    padding-bottom: 6.875rem;
+  }
+}

@@ -1,0 +1,161 @@
+/*-------------------------JSON y XML------------------------------*/
+.contenido{
+    display:flex;
+    flex-direction: row;
+    padding-top: 0.63rem;
+    margin: 0.63rem;
+}
+#respuestas{
+    border-radius: 25px;
+    box-shadow: 0 0 0.938rem 0.313rem rgba(0, 0, 0, 0.219);
+    height: 2000px;
+}
+.bloque{
+    margin: 0.63rem 0.63rem 0 0.63rem ;
+}
+#bloque_lateral ul{
+    list-style: none;
+}
+#bloque_lateral li{
+    padding: 0.625rem;
+}
+#bloque_lateral{
+    height: 100%;
+}
+#bloque_lateral a{
+    color: black;
+}
+#bloque_lateral a:hover{
+    text-decoration: none;
+    color: blue ;
+}
+.bloque p{
+    padding: 0.938rem;
+}
+.titulo{
+    text-align: center;
+    padding: 0.63rem;
+    margin: 0.63rem;
+}
+.respuestas{
+    padding: 6.25rem;
+
+}
+#bloque_horizontal{
+    display: none;
+}
+
+  /* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    margin-left: 125px;
+  }
+  
+  th {
+    background-color: #1c2331;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para el botón */
+  .btn {
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background-color: #34495e;
+  }
+  
+  /* Estilos para el encabezado de la página */
+  .titulo {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+  }
+  
+  /* Estilos para el pie de página */
+  .footer {
+    background-color: #1c2331;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para los enlaces del pie de página */
+  .footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+/*---------Metodos responsive------------------*/
+
+@media (max-width: 991.98px) 
+{
+    .respuestas{
+        padding-left: 0;
+        padding-right: 0;
+        margin: 1rem;
+    }
+}
+@media (max-width: 1500px){
+    #bloque_lateral{
+        display: none;
+    }
+    #bloque_horizontal{
+        display: block;
+        height: 12.5rem !important;
+    }
+    #bloque_horizontal ul{
+        list-style: none;
+    }
+    #bloque_horizontal li{
+        padding: 0.625rem;
+    }
+    #bloque_horizontal{
+        height: 100%;
+    }
+    #bloque_horizontal a{
+        color: black;
+    }
+    #bloque_horizontal a:hover{
+        text-decoration: none;
+        color: blue ;
+    }
+}

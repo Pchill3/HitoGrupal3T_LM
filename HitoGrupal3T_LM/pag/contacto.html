@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_contacto.css">
+    <script
+    src="https://kit.fontawesome.com/953f80cad3.js"
+    crossorigin="anonymous"
+  ></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+    <header>
+      <div class="menu_principal">
+              <label class="lnr lnr-menu"></label>
+          
+          
+          <div class="menu">
+              <div class="line"><a href="../index.html"><label class="lnr lnr-home"><font>Home</font></label></a></div>
+              <div class="line"><a href="json.html"><label class="lnr lnr-book"><font>posts</font></label></a></div>
+              <div class="line"><a href="contacto.html"><label class="lnr lnr-bullhorn"><font>RRSS</font></label></a></div>
+          </div>
+      </div>
+    </header>
+    
+    <section class="pagina_contacto">
+        <div class="container">
+          <div class="titulo1">
+            <div class="contactanos">Contactanos</div>
+            <h2>Queremos saber lo que piensas</h2>
+          </div>
+          <div class="inner-container">
+            <div class="row clearfix">
+  <!--       Formulario de contacto -->
+                <div class="form-column col-md-8 col-sm-12 col-xs-12">
+                  <div class="inner-column">
+                    <div class="formulario_contacto">
+                      <form method="post" action="sendemail.php" id="formulario_contacto">
+                        <div class="row clearfix">
+                          <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                            <input type="text" name="nombre" value="" placeholder="Nombre" required>
+                          </div>
+                          <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                            <input type="password" name="apellido" value="" placeholder="Apellidos" required>
+                          </div>
+                          <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                            <input type="email" name="email" value="" placeholder="Email" required>
+                          </div>
+                          <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                            <input type="text" name="telefono" value="" placeholder="Telefono" required>
+                          </div>
+                          <div class="form-group col-md-12 col-sm-12 co-xs-12">
+                            <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                          </div>
+                          <div class="form-group col-md-12 col-sm-12 co-xs-12">
+                            <button type="submit" class="theme-btn btn-style-one">Enviar</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+  <!--               Informacion de contacto -->
+                <div class="info-column col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                  <div class="inner-column">
+                    <h2>Contactanos</h2>
+                    <ul class="list-info">
+                      <li><i class="fa-solid fa-envelope"></i>daniel.mier@campusfp.es<br> pablo.vara@campusfp.es<br>david.izquierdo@campus.es</li>
+                      <li><i class="fa-solid fa-user"></i>Daniel Mier <br> Pablo Vara <br> David Izquierdo</li>
+                    </ul>
+                    <ul class="social-icon-four">
+                      <li class="follow">Siguenos en redes sociales: </li>
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                      <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                      <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <footer>
+        <div class="footer">
+          <div class="row">
+            <ul>
+              <li><a href="pag/contacto.html">Contactanos</a></li>
+              <li><a href="#">Politica de privaciad</a></li>
+              <li><a href="#">Terminos y condiciones</a></li>
+            </ul>
+          </div>
+    
+          <div class="row">
+            Copyright © - Derechos Reservados || DAM Grupo 2 LM
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>
